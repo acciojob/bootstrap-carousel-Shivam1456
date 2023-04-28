@@ -13,7 +13,7 @@ overflow-x: auto;
 flex-shrink: 0;
 
 
-width: 100%;
+width: 50%;
 
 
 height: 300px;
@@ -92,7 +92,7 @@ scroll-snap-align: start;
 scroll-behavior: smooth;
 
 
-background: #74ABE2;
+/* background: #74ABE2; */
 
 
 justify-content: center;
@@ -105,7 +105,22 @@ font-size: 100px;
 
 
 }
+.slides {
 
+
+display: flex;
+
+
+}
+
+
+.slides > div {
+
+
+display: flex;
+
+
+}
 
 
 
